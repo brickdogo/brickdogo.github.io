@@ -1,0 +1,104 @@
+/* Main Style */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff3d1;
+}
+/* Title Style*/
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1vw;
+}
+.title-card-top-left{
+    position: absolute;
+    top: -7%;
+    left: -1vw;
+    width: 45%;
+    height: 7vh;
+    background-color: #708025;
+    z-index: -1;
+}
+.title-card-bottom-right{
+    position: absolute;
+    bottom: -7%;
+    right: -1vw;
+    width: 45%;
+    height: 7vh;
+    background-color: #9bb03d;
+    z-index: -1;
+}
+.title-card{
+    position: relative;
+    display: flex;
+    top: 2%;
+    width: 95%;
+    height: 10vw;
+    background-color: #f2a848;
+    align-items: center;
+    justify-content: center;
+}
+.title-text{
+    position: relative;
+    text-align: center;
+    color: #a71b08;
+    font-weight: 1000;
+    font-size: 4.5vw;
+}
+
+/* Subtitle Content Style */
+
+.subtitle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2vw;
+}
+.subtitle-card-left{
+    position: absolute;
+    left: -1vw;
+    width: 10%;
+    height: 100%;
+    background-color: #a71b08;
+    z-index: -1;
+}
+.subtitle-card-right{
+    position: absolute;
+    right: -1vw;
+    width: 10%;
+    height: 100%;
+    background-color: #a71b08;
+    z-index: -1;
+}
+.subtitle-card{
+    position: relative;
+    top: 2.5vw;
+    align-self: center;
+    display: flex;
+    width: 90%;
+    height: 7vw;
+    background-color: #edd1ad;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle-opening-text{
+    text-align: center;
+    color: #312E26;
+    font-weight: 750;
+    font-size: 2vw;
+}
+
+/* Main Content */
+.main-content{
+    position: relative;
+    top: 7vw;
+    background-color: #a71b08;
+}
+.main-content img{
+    display: block;
+    margin: 1vw auto;
+    width: 97%;
+    height: auto;
+}
