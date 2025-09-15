@@ -14,18 +14,18 @@ body{
 .title-card-top-left{
     position: absolute;
     top: -7%;
-    left: -1vw;
+    left: -2%;
     width: 45%;
-    height: 7vh;
+    height: 100%;
     background-color: #708025;
     z-index: -1;
 }
 .title-card-bottom-right{
     position: absolute;
     bottom: -7%;
-    right: -1vw;
+    right: -2%;
     width: 45%;
-    height: 7vh;
+    height: 100%;
     background-color: #9bb03d;
     z-index: -1;
 }
@@ -173,11 +173,11 @@ body{
     margin-top: 0%;
     color: #fff3d1;
     font-weight: 750;
-    font-size: 2vw;
+    font-size: 3.75cqw;
 }
 .item-left-text{
     color: #fdebb8;
-    font-size: 1.5vw;
+    font-size: 2.75cqw;
 }
 
 /* Right Based Content Style */
@@ -205,9 +205,9 @@ body{
     margin-top: 0%;
     color: #fff3d1;
     font-weight: 750;
-    font-size: 2vw;
+    font-size: 3.75cqw;
 }
 .item-right-text{
     color: #fdebb8;
-    font-size: 1.5vw;
+    font-size: 2.75cqw;
 }
